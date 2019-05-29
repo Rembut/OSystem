@@ -39,7 +39,7 @@ namespace TCP
             }
             catch (Exception e)
             {
-                Console.WriteLine("Произошла ошибка {0}", e.Message);
+                Console.WriteLine("Error occured {0}", e.Message);
             }
         }
     }
